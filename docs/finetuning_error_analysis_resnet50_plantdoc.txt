@@ -1,0 +1,8 @@
+
+After lightweight fine-tuning on PlantDoc training images, the ResNet50 model showed a clear improvement on the external PlantDoc test set. The accuracy increased from 17.80% before fine-tuning to 49.15% after fine-tuning, corresponding to a gain of 31.36 percentage points. This confirms that fine-tuning with realistic images can partially reduce the domain shift between PlantVillage and PlantDoc.
+
+However, the confusion matrix after fine-tuning shows that several errors remain. The most important confusion was observed between Tomato bacterial spot and Tomato Septoria leaf spot, where 66.67% of Tomato bacterial spot samples were classified as Tomato Septoria leaf spot. Corn Northern Leaf Blight and Corn Gray leaf spot also remained difficult to distinguish, confirming that visually similar leaf lesions continue to challenge the model.
+
+Other remaining confusions included Apple healthy being predicted as Apple scab, Tomato mosaic virus being predicted as Tomato Leaf Mold, and Blueberry healthy being predicted as Apple healthy. These results suggest that the model still struggles with field-like images containing complex backgrounds, variable illumination, partial leaves, and overlapping symptom patterns.
+
+Overall, the fine-tuning experiment demonstrates that domain adaptation improves external generalization, but the remaining performance gap indicates that additional strategies are required. These may include stronger data augmentation, larger real-world datasets, background-aware preprocessing, class balancing, and domain adaptation methods.

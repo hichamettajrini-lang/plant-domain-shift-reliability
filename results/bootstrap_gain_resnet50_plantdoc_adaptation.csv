@@ -1,0 +1,4 @@
+comparison,accuracy_gain_mean,accuracy_gain_ci95_low,accuracy_gain_ci95_high,macro_f1_gain_mean,macro_f1_gain_ci95_low,macro_f1_gain_ci95_high,weighted_f1_gain_mean,weighted_f1_gain_ci95_low,weighted_f1_gain_ci95_high
+Fine-tuning vs no adaptation,0.3141,0.264831,0.364407,0.222282,0.187546,0.255255,0.314812,0.256499,0.371064
+Fine-tuning + augmentation vs no adaptation,0.348159,0.29661,0.398305,0.241718,0.208135,0.274762,0.343729,0.289418,0.394967
+Fine-tuning + augmentation vs fine-tuning,0.034059,0.002066,0.065678,0.019436,-0.00328,0.041888,0.028917,-0.003894,0.061228

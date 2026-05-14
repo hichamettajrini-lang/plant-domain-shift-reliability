@@ -1,0 +1,4 @@
+experiment,accuracy_mean,accuracy_ci95_low,accuracy_ci95_high,macro_f1_mean,macro_f1_ci95_low,macro_f1_ci95_high,weighted_f1_mean,weighted_f1_ci95_low,weighted_f1_ci95_high,macro_precision_mean,macro_precision_ci95_low,macro_precision_ci95_high,macro_recall_mean,macro_recall_ci95_low,macro_recall_ci95_high
+ResNet50 no adaptation,0.176992,0.144068,0.211864,0.118504,0.095753,0.14255,0.172622,0.137416,0.210366,0.197439,0.151451,0.236487,0.124334,0.103067,0.146566
+ResNet50 fine-tuning,0.491091,0.447034,0.536017,0.340787,0.312234,0.368127,0.487434,0.440877,0.533561,0.372848,0.343934,0.401413,0.35132,0.322112,0.380408
+ResNet50 fine-tuning + data augmentation,0.52515,0.480879,0.569968,0.360222,0.332996,0.388913,0.516352,0.471965,0.562668,0.404866,0.376924,0.434894,0.372859,0.343978,0.403403

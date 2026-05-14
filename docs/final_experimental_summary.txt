@@ -1,0 +1,12 @@
+
+Final Experimental Summary
+
+Four transfer learning architectures were first evaluated on the PlantVillage validation subset. ResNet50 achieved the best validation performance, with an accuracy of 97.87% and a validation loss of 0.0851. MobileNetV2 achieved 95.01%, DenseNet121 achieved 95.96%, and EfficientNetB0 achieved 96.19%.
+
+However, when the best PlantVillage-trained model, ResNet50, was directly evaluated on the external PlantDoc test set, its accuracy dropped sharply from 97.87% to 17.80%. This confirmed a strong domain shift between controlled PlantVillage images and realistic PlantDoc images.
+
+To address this problem, a lightweight fine-tuning strategy was applied using PlantDoc training images. After fine-tuning, the PlantDoc test accuracy increased from 17.80% to 49.15%, corresponding to a gain of 31.36 percentage points.
+
+A second adaptation experiment was then performed using PlantDoc fine-tuning with data augmentation. This further improved the PlantDoc test accuracy to 52.54%, corresponding to a total gain of 34.75 percentage points compared with the non-adapted ResNet50 model.
+
+These results show that high accuracy on PlantVillage does not guarantee real-world robustness. External validation revealed a severe generalization problem, while fine-tuning and data augmentation partially reduced the domain shift. Nevertheless, the remaining performance gap indicates that additional strategies such as larger real-world datasets, stronger augmentation, domain adaptation, background-aware preprocessing, and class balancing are still required.

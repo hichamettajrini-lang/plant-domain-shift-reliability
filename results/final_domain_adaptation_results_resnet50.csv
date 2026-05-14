@@ -1,0 +1,5 @@
+experiment,training_data,test_dataset,accuracy,accuracy_percent,gain_vs_plantdoc_before,gain_vs_plantdoc_before_percent
+ResNet50 trained on PlantVillage,PlantVillage,PlantVillage validation,0.9786753637732062,97.86753637732062,0.800709262078291,80.0709262078291
+ResNet50 trained on PlantVillage,PlantVillage,PlantDoc external test,0.17796610169491525,17.796610169491526,0.0,0.0
+ResNet50 fine-tuned on PlantDoc,PlantVillage + PlantDoc train,PlantDoc external test,0.4915254237288136,49.152542372881356,0.31355932203389836,31.355932203389834
+ResNet50 fine-tuned on PlantDoc with data augmentation,PlantVillage + augmented PlantDoc train,PlantDoc external test,0.5254237288135594,52.54237288135594,0.34745762711864414,34.745762711864415

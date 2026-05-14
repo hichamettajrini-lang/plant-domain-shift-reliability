@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: Plant Domain Shift Reliability
+message: If you use this repository, please cite the corresponding manuscript and Zenodo archive.
+type: software
+authors:
+  - family-names: Ettajrini
+    given-names: Hicham
+repository-code: https://github.com/hichamettajrini-lang/plant-domain-shift-reliability
+license: MIT
+version: 1.0.0
+date-released: 2026-05-14
