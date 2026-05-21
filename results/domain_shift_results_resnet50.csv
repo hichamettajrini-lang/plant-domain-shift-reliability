@@ -1,0 +1,3 @@
+dataset,model,accuracy,accuracy_percent,performance_drop,performance_drop_percent
+PlantVillage validation,ResNet50,0.9786753637732062,97.86753637732062,0.800709262078291,80.0709262078291
+PlantDoc external test,ResNet50,0.17796610169491525,17.796610169491526,0.800709262078291,80.0709262078291

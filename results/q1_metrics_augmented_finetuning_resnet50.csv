@@ -1,0 +1,2 @@
+model,adaptation,test_dataset,accuracy,macro_precision,macro_recall,macro_f1,weighted_precision,weighted_recall,weighted_f1
+ResNet50,PlantDoc fine-tuning + data augmentation,PlantDoc external test,0.525424,0.40511,0.373055,0.364831,0.573142,0.525424,0.517058
