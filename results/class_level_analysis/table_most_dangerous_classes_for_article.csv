@@ -1,0 +1,11 @@
+Class,Samples,Correct,Errors,Accuracy,Mean confidence of wrong predictions,False confident ≥0.80,False confident ≥0.90,False confident ≥0.95
+Cherry_(including_sour)___healthy,20,0,20,0.0,0.764,10,10,8
+Corn_(maize)___Northern_Leaf_Blight,24,8,16,0.333,0.805,10,10,6
+Potato___Late_blight,16,0,16,0.0,0.822,10,10,6
+Blueberry___healthy,22,0,22,0.0,0.664,10,8,8
+Peach___healthy,18,2,16,0.111,0.836,10,8,4
+Tomato___Tomato_mosaic_virus,20,0,20,0.0,0.74,8,8,6
+Apple___healthy,18,4,14,0.222,0.845,10,6,4
+"Pepper,_bell___healthy",16,4,12,0.25,0.886,10,6,4
+Tomato___Bacterial_spot,18,2,16,0.111,0.729,8,6,2
+Grape___Black_rot,16,4,12,0.25,0.776,6,6,4

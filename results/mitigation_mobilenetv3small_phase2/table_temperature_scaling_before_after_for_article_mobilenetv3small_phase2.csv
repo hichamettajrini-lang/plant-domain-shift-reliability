@@ -1,0 +1,3 @@
+Condition,Accuracy,Mean confidence,Median confidence,ECE-15,Brier score,NLL,Wrong predictions ≥0.90,Wrong predictions ≥0.95
+Before temperature scaling,0.2288,0.7457,0.7652,0.5168,1.2092,5.6304,118,82
+After temperature scaling,0.2288,0.1492,0.134,0.0797,0.8914,2.7205,0,0

@@ -1,0 +1,2 @@
+model,test_domain,n_test_images,n_classes,accuracy,mean_confidence,median_confidence,ece_10_bins,brier_score_multiclass,negative_log_likelihood
+MobileNetV3-Small phase 2,PlantDoc,472,27,0.2288135593220339,0.7456622123718262,0.7652347087860107,0.5168487366478322,1.2091667364760856,5.630397497852936

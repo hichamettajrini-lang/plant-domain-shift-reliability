@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+venv_tf/
+venv_tf312/
+.env/
+
+# Raw datasets
+data/
+datasets/
+raw_data/
+
+# Large model files
+*.keras
+*.h5
+*.ckpt
+*.pb
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db

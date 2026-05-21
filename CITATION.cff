@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: "Reliability-Aware Edge AI for Plant Disease Recognition Under Domain Shift"
+message: "If you use this code, results, or figures, please cite this repository and the associated manuscript."
+type: software
+authors:
+  - family-names: "Ettajrini"
+    given-names: "Hicham"
+    affiliation: "Abdelmalek Essaadi University"
+repository-code: "https://github.com/hichamettajrini-lang/plant-domain-shift-reliability"
+abstract: "Code, article-ready results, and figures for reliability-aware evaluation of MobileNetV3-Small plant disease recognition under PlantVillage-to-PlantDoc domain shift, including calibration, false confident prediction analysis, temperature scaling, and human-in-the-loop gating."
+keywords:
+  - plant disease recognition
+  - Edge AI
+  - domain shift
+  - confidence calibration
+  - MobileNetV3
+  - PlantVillage
+  - PlantDoc
+  - false autonomous actuation
+license: MIT
+version: 1.0.0
+date-released: 2026-05-21

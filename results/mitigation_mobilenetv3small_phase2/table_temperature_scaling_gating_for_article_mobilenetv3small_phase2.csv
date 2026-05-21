@@ -1,0 +1,6 @@
+Condition,Auto-action threshold,Automatic actions,Automatic action rate,Human-review cases,Human-review rate,Unsafe automatic actions,Unsafe / automatic
+Before temperature scaling,0.9,168,0.356,304,0.644,118,0.702
+Before temperature scaling,0.95,128,0.271,344,0.729,82,0.641
+After temperature scaling,0.2,72,0.153,400,0.847,38,0.528
+After temperature scaling,0.25,34,0.072,438,0.928,12,0.353
+After temperature scaling,0.3,8,0.017,464,0.983,2,0.25
