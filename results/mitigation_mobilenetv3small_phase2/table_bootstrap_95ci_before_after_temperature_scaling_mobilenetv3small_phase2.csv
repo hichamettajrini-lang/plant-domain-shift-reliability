@@ -1,0 +1,15 @@
+Condition,Metric,Point estimate,CI 95% lower,CI 95% upper
+Before temperature scaling,Accuracy,0.2288,0.197,0.2606
+Before temperature scaling,Macro-F1,0.1933,0.1566,0.2253
+Before temperature scaling,ECE-15,0.5168,0.4833,0.5529
+Before temperature scaling,Brier score,1.2092,1.1574,1.2608
+Before temperature scaling,NLL,5.6304,5.3123,5.9505
+Before temperature scaling,Wrong predictions >=0.90,118.0,101.0,136.0
+Before temperature scaling,Wrong predictions >=0.95,82.0,67.0,97.0
+After temperature scaling,Accuracy,0.2288,0.197,0.2606
+After temperature scaling,Macro-F1,0.1933,0.1566,0.2253
+After temperature scaling,ECE-15,0.0797,0.0569,0.1154
+After temperature scaling,Brier score,0.8914,0.8834,0.8994
+After temperature scaling,NLL,2.7205,2.6724,2.7665
+After temperature scaling,Wrong predictions >=0.90,0.0,0.0,0.0
+After temperature scaling,Wrong predictions >=0.95,0.0,0.0,0.0

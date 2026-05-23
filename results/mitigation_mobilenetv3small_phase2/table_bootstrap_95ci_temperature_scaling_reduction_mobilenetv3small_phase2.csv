@@ -1,0 +1,8 @@
+Metric,Point estimate,CI 95% lower,CI 95% upper
+Accuracy change after - before,0.0,0.0,0.0
+Macro-F1 change after - before,0.0,0.0,0.0
+ECE-15 reduction before - after,0.4372,0.3692,0.4866
+Brier score reduction before - after,0.3177,0.2725,0.3645
+NLL reduction before - after,2.9099,2.6346,3.1916
+Wrong predictions >=0.90 reduction,118.0,101.0,136.0
+Wrong predictions >=0.95 reduction,82.0,67.0,97.0
