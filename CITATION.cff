@@ -7,7 +7,7 @@ authors:
     given-names: "Hicham"
     affiliation: "Abdelmalek Essaadi University"
 repository-code: "https://github.com/hichamettajrini-lang/plant-domain-shift-reliability"
-abstract: "Code, article-ready results, and figures for reliability-aware evaluation of MobileNetV3-Small plant disease recognition under PlantVillage-to-PlantDoc domain shift, including calibration, false confident prediction analysis, temperature scaling, and human-in-the-loop gating."
+abstract: "Code, article-ready results, and figures for reliability-aware evaluation of MobileNetV3-Small plant disease recognition under PlantVillage-to-PlantDoc domain shift, including calibration, false confident prediction analysis, temperature scaling, human-in-the-loop gating, qualitative high-confidence error examples, and stratified bootstrap confidence intervals."
 keywords:
   - plant disease recognition
   - Edge AI
@@ -17,8 +17,8 @@ keywords:
   - PlantVillage
   - PlantDoc
   - false autonomous actuation
+  - temperature scaling
+  - bootstrap confidence intervals
 license: MIT
-version: 1.1.0
-date-released: 2026-05-21
-doi: 10.5281/zenodo.20319263
-url: "https://doi.org/10.5281/zenodo.20319263"
+version: 1.2.0
+date-released: 2026-05-23
